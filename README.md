@@ -54,11 +54,19 @@ Transaction 10: ['Butter', 'Milk', 'Bread']
 
 ## 🧠 Rule Interpretation
 
-**Rule Chosen:**  
+**Rule 1:**
 > If a customer buys **Bananas**, they are **80% likely** to also buy **Bread**.
 
 **Real-Life Meaning:**  
 > "Shoppers who pick up **Bananas** usually add **Bread** to their cart as well. This means that in 8 out of 10 cases, Bananas and Bread are purchased together. Retailers can use this insight to place these items close to each other or bundle them in promotions."
+
+---
+
+**Rule 2:**
+> If a customer buys **Eggs**, they are **75% likely** to also buy **Bananas**.
+
+**Real-Life Meaning:**  
+> "When customers buy **Eggs**, they often also buy **Bananas**. This happens around 3 out of 4 times. A grocery store could suggest Bananas to people buying Eggs, either online or through in-store promotions."
 
 ---
 
@@ -73,7 +81,7 @@ Transaction 10: ['Butter', 'Milk', 'Bread']
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/SamAbr/samuel-association-mini.git
+   git clone https://github.com/SamAbr/Samuel-Association-Mini.git
 2. Install required libraries:
 ```python
 pip install pandas mlxtend
