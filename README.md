@@ -64,7 +64,7 @@ Transaction 10: ['Butter', 'Milk', 'Bread']
 
 ## 💾 Files Included
 
-- `association_mining.ipynb` — Jupyter Notebook with full code and results.
+- `AssociationRules.ipynb` — Jupyter Notebook with full code and results.
 - `README.md` — This file with summary and explanation.
 
 ---
@@ -73,10 +73,10 @@ Transaction 10: ['Butter', 'Milk', 'Bread']
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/samuel-association-mini.git
+   git clone https://github.com/SamAbr/samuel-association-mini.git
 2. Install required libraries:
 ```python
 pip install pandas mlxtend
 ```
-3. Run the notebook:
-Open association_mining.ipynb and run all cells.
+3. Run the notebook:  
+Open AssociationRules.ipynb and run all cells.
